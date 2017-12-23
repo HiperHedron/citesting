@@ -10,7 +10,7 @@ public class FirstTest {
 	
 	@Test
 	public void test() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/webdrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Lux/eclispe-oxygen-workspace/Entrust/webdrivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		driver.quit();
