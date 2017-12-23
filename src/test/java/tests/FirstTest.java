@@ -8,7 +8,7 @@ public class FirstTest {
 	
 	WebDriver driver;
 	
-	@Test()
+	@Test
 	public void test() {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/webdrivers/chromedriver.exe");
 		driver = new ChromeDriver();
